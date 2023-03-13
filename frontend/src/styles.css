@@ -1,0 +1,54 @@
+/* styles.css */
+
+.search-form {
+  margin-bottom: 1rem;
+}
+
+.search-form label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-form input[type="text"] {
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+.joblist-button{
+  background-color: #0074D9;
+  border: none;
+  color: ;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+
+}
+
+.search-form button {
+  background-color: #0074D9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.job-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.job-list li {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.job-list li:last-child {
+  border-bottom: none;
+}
+a:link { text-decoration: none;
+ color:#fff}
